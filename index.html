@@ -17,8 +17,8 @@
     <div class="tudo">
     <section class="menu">
         <header class="menu__header">
-            <img src="assets\vector.png">
-            <h3 class="menu__title">Fulana de Tal</h3>
+            <img src="assets\jeison.png">
+            <!-- <h3 class="menu__title">JMz</h3> -->
         </header>
         <nav class="nav__header">
             <ul class="menu__list">
@@ -27,7 +27,7 @@
                 <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
                 <li class="menu__list__item"><a href="#formacion">Formación</a></li>
                 <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                <b class="menu__list__item"><b><a href="#contacto">jeisonmzr@gmail.com</a></b></li>
+                <b class="menu__list__item__correo"><b><a href="#contacto">jeisonmzr@gmail.com</a></b>
             </ul>
             <!-- <li class="menu__list__item__contato"><a href="#contacto">contacto@fulana.com</a></li> -->
         </nav>
@@ -46,10 +46,14 @@
                 <h3 class="title__subsection">Soy desarrollador web front end, actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
                 <ul class="title__network">
                      <!-- Pon los enlaces de tus redes sociales favoritas -->
-                    <li class="title__network__item"><a href="">Github <img src="assets\arrow.png"> </a></li>
-                    <li class="title__network__item"><a href="">Linkedin <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Instagram <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Currículo <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="">Github</a>
+                        <img src="assets\arrow.png"></li>
+                    <li class="title__network__item"><a href="">Linkedin</a>
+                        <img src="assets\arrow.png"></li>
+                    <li class="title__network__item"><a href="">Instagram</a>
+                        <img src="assets\arrow.png"></li>
+                    <li class="title__network__item"><a href="">Currículo</a>
+                        <img src="assets\arrow.png"></li>
                 </ul>
             </div>
         </div>
@@ -62,7 +66,7 @@
             <p class="about__paragraph" >Soy un desarrollador web front-end capacitado con mas de 3 años de experiencia en el desarrollo de soluciones personalizadas tengo habilidades sólidas en HTML, CSS, Sass, JavaScript, TypeScript, React, Astro, TailwindCSS, Bootstrap y Material-UI. Mi enfoque es crear interfaces de usuario atractivas y altamente funcionales que satisfagan las necesidades específicas de cada cliente. Además, mi experiencia en la gestión de proyectos y herramientas como Azure DevOps, Git, GitHub, Jira me permite trabajar de manera efectiva en equipo, entregando proyectos de alta calidad dentro del tiempo establecido.</p>
             <p class="about__paragraph">Tambien me soy desarrollador WordPress con más de 5 años de experiencia, en la creación de E-Commerces, Sitios Web y Paginas Web. Soy experto en el uso de herramientas populares de diseño como Elementor, Divi y WooCommerce. Pero lo que me diferencia de otros diseñadores de WordPress es mi habilidad para aplicar técnicas de SEO. Entiendo la importancia de la optimización de motores de búsqueda para el éxito en línea de cualquier negocio, y por lo tanto aplico técnicas que me permitan asegurar que tus sitios web se posicionen adecuadamente en los motores de búsqueda, garantizando asi rendimiento, accesibilidad y buenas practicas.</p>
             <!-- Si quieres, pon tú firma acá! -->
-            <img src="assets\signature.png">
+            <!-- <img src="assets\signature.png"> -->
         </div>
     </section>
 
@@ -71,44 +75,100 @@
         <h3 class="skills__title">Skills</h3>
             <div class="skills__line">
                 <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"><img src="assets\htlm.png"></li>
+                    <ul class="skills__container">
+                        <li class="skills__img"><img src="assets/htmlg.webp"></li>
                         <li class="skills__name"> HTML 5</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
+                    <ul class="skills__container">
+                        <li class="skills__img"> <img src="assets/cssg.webp" alt=""></li>
+                        <li class="skills__name">CSS</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__container">
+                        <li class="skills__img"> <img src="assets/javascriptg.webp" alt=""></li>
                         <li class="skills__name">Javascript</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\php_icon.png" alt=""></li>
-                        <li class="skills__name">PHP</li>
+                    <ul class="skills__container">
+                        <li class="skills__img"><img src="assets/typescriptg.webp" alt=""></li>
+                        <li class="skills__name">Typescript</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
-                        <li class="skills__name">Node JS</li>
+                    <ul class="skills__container">
+                        <li class="skills__img"> <img src="assets/bootstrapg.webp" alt=""> </li>
+                        <li class="skills__name">Bootstrap</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
-                        <li class="skills__name">React</li>
+                    <ul class="skills__container">
+                        <li class="skills__img"> <img src="assets/sassg.webp" alt=""> </li>
+                        <li class="skills__name">Sass</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
-                        <li class="skills__name">CSS</li>
+                    <ul class="skills__container">
+                        <li class="skills__img"> <img src="assets/astrog.webp" alt=""> </li>
+                        <li class="skills__name">Astro</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__container">
+                        <li class="skills__img"> <img src="assets/tailwindcssg.webp" alt=""> </li>
+                        <li class="skills__name">TailwinCSS</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__container">
+                        <li class="skills__img"> <img src="assets/azureg.webp" alt=""> </li>
+                        <li class="skills__name">Azure Devops</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__container">
+                        <li class="skills__img"> <img src="assets/gitg.webp" alt=""> </li>
+                        <li class="skills__name">Git</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__container">
+                        <li class="skills__img"> <img src="assets/githubg.webp" alt=""> </li>
+                        <li class="skills__name">GitHub</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__container">
+                        <li class="skills__img"> <img src="assets/sourcetreeg.webp" alt=""> </li>
+                        <li class="skills__name">SourceTree</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__container">
+                        <li class="skills__img"> <img src="assets/jirag.webp" alt=""> </li>
+                        <li class="skills__name">Jira</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__container">
+                        <li class="skills__img"> <img src="assets/codeg.webp" alt=""> </li>
+                        <li class="skills__name">slack</li>
                     </ul>
                 </div>
         </div>
@@ -119,44 +179,30 @@
         <h3 class="hobbies__title">Hobbies</h3>
             <div class="hobbies__line">
                 <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"><img src="assets\skate_icon.png"></li>
-                        <li class="hobbies__name"> Patinaje</li>
+                    <ul class="hobbies__container">
+                        <li class="hobbies__img"><img src="assets/playag.webp"></li>
+                        <li class="hobbies__name"> Playa</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets\guitar_icon.png" alt=""></li>
-                        <li class="hobbies__name">Tocar bajo</li>
+                    <ul class="hobbies__container">
+                        <li class="hobbies__img"> <img src="assets/cineg.webp" alt=""></li>
+                        <li class="hobbies__name">Cine</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets\headphones_icon.png" alt=""></li>
-                        <li class="hobbies__name">Oir música</li>
+                    <ul class="hobbies__container">
+                        <li class="hobbies__img"> <img src="assets/gymg.webp" alt=""></li>
+                        <li class="hobbies__name">GyM</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"><img src="assets\tv_icon.png" alt=""></li>
-                        <li class="hobbies__name">Ver séries</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets\forkspoon_icon.png" alt=""> </li>
-                        <li class="hobbies__name">Cocinar</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets\camera_icon.png" alt=""> </li>
-                        <li class="hobbies__name">Tomar fotos</li>
+                    <ul class="hobbies__container">
+                        <li class="hobbies__img"><img src="assets/codeg.webp" alt=""></li>
+                        <li class="hobbies__name">Estudio</li>
                     </ul>
                 </div>
         </div>
@@ -172,18 +218,8 @@
                     <div class="academic__img__container">
                         <li class="academic__courses__item__img"><img src="assets\ufpr_logo.png"></li>
                     </div>
-                    <li class="academic__courses__item__title"><h4>Análisis de datos</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>2018 - UFPR</p></li>
-                </ul>
-            </div>
-            <div class="academic__courses__box">
-                <ul class="academic__courses__list">
-                    <!--Pon el logotipo de la institución de formación -->
-                    <div class="academic__img__container">
-                    <li class="academic__courses__item__img"><img src="assets\alura_logo.png"></li>
-                    </div>
-                    <li class="academic__courses__item__title"><h4>Formación en UX Design</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>2019 - Alura</p></li>
+                    <li class="academic__courses__item__title"><h4>Ingeniero de Sistemas</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2018 - PCA</p></li>
                 </ul>
             </div>
             <div class="academic__courses__box">
@@ -192,8 +228,18 @@
                     <div class="academic__img__container">
                     <li class="academic__courses__item__img"><img src="assets\ufrj_logo.png"></li>
                     </div>
-                    <li class="academic__courses__item__title"><h4>Posgrado en diseño</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>En curso - UFRJ</p></li>
+                    <li class="academic__courses__item__title"><h4>Formación Online</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2020 - Platzi</p></li>
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!--Pon el logotipo de la institución de formación -->
+                    <div class="academic__img__container">
+                    <li class="academic__courses__item__img"><img src="assets\alura_logo.png"></li>
+                    </div>
+                    <li class="academic__courses__item__title"><h4>Formación en Frontend</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2023 - Alura</p></li>
                 </ul>
             </div>
         </div>
