@@ -274,7 +274,7 @@ section.footer {
 Utiliza las referencias de los breakpoints @media abajo */
 
 /*Tablet*/
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
   /* Menú */
   .menu__header > img {
     width: 40px;
@@ -404,42 +404,24 @@ Utiliza las referencias de los breakpoints @media abajo */
 /*Mobile*/
 @media (max-width: 767px) {
   /* Menú */
-  .menu__header > img {
-    width: 40px;
-    height: 40px;
-  }
-  .menu__list__item {
-    display: none;
-  }
-
-
+ 
   /*title*/
-  section.title {
-    display: flex;
-    padding: 0 0 30px 0;
+  .photo__profile{
+    margin-left: 100px;
   }
   .title__div{
     flex-direction: column;
-    
-  }
-  .img__profile > a > img {
-    width: 180px;
-  }
-  .title__bio {
-    font-size: 22px;
-  }
-  .title__subsection {
-    font-size: 13px;
-    font-weight: 300;
   }
   .title__network {
-    font-size: 13px;
-    font-weight: 400;
-  }
-  .title__network__item{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
   }
+  .title__container{
+    width: 90%;
+  }
+ 
 
 
   /* About */
@@ -455,80 +437,29 @@ Utiliza las referencias de los breakpoints @media abajo */
   
   
   /*Skills and Hobbies*/
-  .skills__title,
-  .hobbies__title {
-    text-align: center;
-  }
-  .skills__line,
-  .hobbies__line {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 30px 0;
-  }
-  .skills__box, .hobbies__box{
-    width: 100px;
-    padding: 0 !important;
-  }
-  .skills__container, .hobbies__container{
-    text-align: center;
-    padding: 0;
-    margin: 0;
-  }
-
+ .skills{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 450px;
+ }
+.hobbies__line{
+  margin-top: 50px;
+}
 
   /*Formación Académica*/
-  section.academic {
-    padding: 50px 0 50px 0;
-    height: 400px;
-    background-color: #eaf2fd;
-  }
-  .academic__title {
-    text-align: center;
+  .academic{
+    height: 800px !important;
   }
   .academic__courses {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  .academic__courses__item__img > img {
-    margin: 0 !important;
-    width: 100px;
-    text-align: center;
-  }
-  .academic__img__container {
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 180px;
-    height: 100px;
-
-  }
-  .academic__courses__item__img {
-    width: 100px !important;
-  }
-
 
   /*Experiencia Profesional*/
-  section.experience {
-    height: 500px !important;
-    padding-top: 50px;
+  .experience__img{
+    width: 320px;
   }
-  .experience__box {
-    padding-bottom: 80px;
-    display: flex;
-    flex-direction: column;
-  }
-  .experience__info-container {
-    width: 80%;
-    padding: 50px 0 0 0 !important;
-
-  }
-
 
   /* Contacto */
-  .formcontato--esquerda{
-    display: none;
-  }
 }
